@@ -1,0 +1,16 @@
+{
+  "name": "javascript-exercises",
+  "type": "module",
+  "devDependencies": {
+    "@eslint/js": "^9.23.0",
+    "eslint": "^9.23.0",
+    "globals": "^16.0.0",
+    "npm-check-updates": "^17.1.16",
+    "typescript-eslint": "^8.29.0",
+    "vitest": "^3.1.1"
+  },
+  "dependencies": {},
+  "scripts": {
+    "test": "vitest --watch=false"
+  }
+}
