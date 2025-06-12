@@ -1,1 +1,1 @@
-console.log("ololo");
+console.log("Robert\nStannis\nRenly");
