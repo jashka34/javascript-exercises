@@ -1,8 +1,11 @@
 const even = (s) => {
-  s.forEach((e) => {
-    res += e;
+  let res = "";
+  s.split("").forEach((e, i) => {
+    if ((i + 1) % 2 === 0) {
+      res += e;
+    }
   });
-  return e;
+  return res;
 };
 
 export default even;
